@@ -1,8 +1,6 @@
 [dots](https://github.com/danielesteban/dots)
 ==
 
-> Works only in Chrome Canary
-
 [![dots](screenshot.png)](https://dots.gatunes.com)
 
 ### Dev environment
