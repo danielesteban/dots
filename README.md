@@ -1,7 +1,7 @@
 [dots](https://github.com/danielesteban/dots)
 ==
 
-[![dots](screenshot.png)](https://dots.gatunes.com)
+[![dots](public/screenshot.png)](https://dots.gatunes.com)
 
 ### Dev environment
 
@@ -10,8 +10,8 @@
 git clone https://github.com/danielesteban/dots.git
 cd dots
 # install dependencies:
-npm install
+pnpm install
 # start environment:
-npm start
+pnpm start
 # open http://localhost:8080/ in your browser
 ```

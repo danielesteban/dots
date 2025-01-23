@@ -38,7 +38,7 @@ struct FragmentInput {
 @fragment
 fn main(fragment : FragmentInput) -> @location(0) vec4<f32> {
   let l = min(length(fragment.uv), 1);
-  return vec4<f32>(fragment.color * (1 + fragment.light - l), smoothstep(1, 0.8, l));
+  return vec4<f32>(fragment.color * (1 + fragment.light - l), 1 - smoothstep(0.8, 1, l));
 }
 `;
 
